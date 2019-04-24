@@ -13,12 +13,13 @@
   "private": true,
   "workspaces": ["backoffice", "frontend", "server"],
   "resolutions": {
-    "@types/react-dom": "16.0.11",
     "@types/react": "16.7.20",
+    "@types/react-dom": "16.0.11",
     "@types/react-infinite-scroller": "1.2.0",
     "antd": "3.12.3",
     "graphql": "0.13.0",
     "graphql-tag": "2.10.1",
+    "node-fetch": "1.7.3",
     "react": "16.7.0",
     "react-dom": "16.7.0",
     "typescript": "3.2.2"
