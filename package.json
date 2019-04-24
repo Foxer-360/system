@@ -1,0 +1,11 @@
+{
+  "name": "@foxer360/system",
+  "version": "0.2.0",
+  "description": "Foxer360 mono repository with necessary packages to run the whole system.",
+  "repository": "git@github.com:Foxer-360/system.git",
+  "author": "Filip Suchý <nevim42@gmail.com>",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "workspaces": []
+}

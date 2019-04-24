@@ -1,0 +1,11 @@
+# Ignore installed node modules
+node_modules
+
+# Ignore files from database
+database
+
+# Local configurations
+.env
+
+# Ignore log files
+yarn-error.log
