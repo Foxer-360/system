@@ -1,0 +1,9 @@
+[submodule "server"]
+	path = server
+	url = ../server.git
+[submodule "backoffice"]
+	path = backoffice
+	url = ../backoffice.git
+[submodule "frontend"]
+	path = frontend
+	url = ../frontend.git

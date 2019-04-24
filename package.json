@@ -5,7 +5,22 @@
   "repository": "git@github.com:Foxer-360/system.git",
   "author": "Filip Suchý <nevim42@gmail.com>",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "docker": "docker-compose up --force-recreate -d",
+    "docker:down": "docker-compose down",
+    "docker:list": "docker-compose ps"
+  },
   "private": true,
-  "workspaces": []
+  "workspaces": ["backoffice", "frontend", "server"],
+  "resolutions": {
+    "@types/react-dom": "16.0.11",
+    "@types/react": "16.7.20",
+    "@types/react-infinite-scroller": "1.2.0",
+    "antd": "3.12.3",
+    "graphql": "0.13.0",
+    "graphql-tag": "2.10.1",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
+    "typescript": "3.2.2"
+  }
 }
